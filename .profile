@@ -21,7 +21,7 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-eval `dircolors $HOME/.dircolors_config/dircolors.256dark`
+eval `dircolors $HOME/.dircolors/dircolors.256dark`
 
 set bell-style visible
 alias config='/usr/bin/git --git-dir=/home/philb/.cfg/ --work-tree=/home/philb'
