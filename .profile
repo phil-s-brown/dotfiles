@@ -25,3 +25,5 @@ eval `dircolors $HOME/.dircolors/dircolors.256dark`
 
 set bell-style visible
 alias config='/usr/bin/git --git-dir=/home/philb/.cfg/ --work-tree=/home/philb'
+
+source $HOME/.bash_prompt
