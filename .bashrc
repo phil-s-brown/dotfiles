@@ -131,5 +131,5 @@ eval `dircolors $HOME/.dircolors/dircolors.256dark`
 set bell-style visible
 
 # set up the "config" alias to control our dot-files
-alias config='/usr/bin/git --git-dir=/home/philb/.cfg/ --work-tree=/home/philb'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
